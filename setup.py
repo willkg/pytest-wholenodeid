@@ -17,7 +17,8 @@ def get_version():
 setup(
     name='pytest-wholenodeid',
     version=get_version(),
-    description=open(READMEFILE).read(),
+    description='pytest addon for displaying the whole node id for failures',
+    long_description=open(READMEFILE).read(),
     license='Simplified BSD License',
     author='Will Kahn-Greene',
     author_email='willkg@bluesock.org',

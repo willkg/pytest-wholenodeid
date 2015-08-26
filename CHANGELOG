@@ -2,6 +2,13 @@
 CHANGELOG
 =========
 
-0.1:  August 26th, 2015
+0.2: August 26th, 2015
+======================
+
+* Fixed setup.py description/long_description
+
+
+0.1: August 26th, 2015
+======================
 
 * Initial writing

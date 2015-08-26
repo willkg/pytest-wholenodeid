@@ -4,7 +4,7 @@ from _pytest.terminal import TerminalReporter
 import pytest
 
 
-__version__ = '0.1'
+__version__ = '0.2'
 __releasedate__ = '20150826'
 
 
