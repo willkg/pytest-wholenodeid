@@ -1,7 +1,7 @@
-pytest-wholepath
-================
+pytest-wholenodeid
+==================
 
-pytest-wholepath will print the entire node id for test failures in the
+pytest-wholenodeid will print the entire node id for test failures in the
 header.
 
 It turns this::
@@ -33,16 +33,16 @@ Quick start
 
 Install::
 
-  $ pip install pytest-wholepath
+  $ pip install pytest-wholenodeid
 
-It works by default. If you don't want wholepath, then you can pass
-``--nowholepath`` as an argument to disable it.
+It works by default. If you don't want wholenodeid, then you can pass
+``--nowholenodeid`` as an argument to disable it.
 
 
 Project details
 ===============
 
-:Code:          https://github.com/willkg/pytest-wholepath
+:Code:          https://github.com/willkg/pytest-wholenodeid
 :Documentation: You're reading it
-:Issue tracker: https://github.com/willkg/pytest-wholepath/issues
+:Issue tracker: https://github.com/willkg/pytest-wholenodeid/issues
 :License:       Simplified BSD License; see LICENSE file

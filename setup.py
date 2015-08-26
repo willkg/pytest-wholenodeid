@@ -5,7 +5,7 @@ from setuptools import setup
 
 
 READMEFILE = 'README.rst'
-VERSIONFILE = 'pytest_wholepath.py'
+VERSIONFILE = 'pytest_wholenodeid.py'
 VSRE = r"""^__version__ = ['"]([^'"]*)['"]"""
 
 
@@ -15,19 +15,19 @@ def get_version():
 
 
 setup(
-    name='pytest-wholepath',
+    name='pytest-wholenodeid',
     version=get_version(),
     description=open(READMEFILE).read(),
     license='Simplified BSD License',
     author='Will Kahn-Greene',
     author_email='willkg@bluesock.org',
     keywords='py.test pytest',
-    url='https://github.com/willkg/pytest-wholepath',
+    url='https://github.com/willkg/pytest-wholenodeid',
     zip_safe=True,
-    py_modules=['pytest_wholepath'],
+    py_modules=['pytest_wholenodeid'],
     entry_points={
         'pytest11': [
-            'wholepath = pytest_wholepath'
+            'wholenodeid = pytest_wholenodeid'
         ]
     },
     install_requires=[
